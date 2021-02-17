@@ -49,3 +49,7 @@ $ sls deploy -v --aws-profile awsProfileName
 
 現状はAPIに制限をかけていないのでだれでもリクエストを送ることが出来ます。  
 そのためIP制限をかけるにはAWSのWAFからIPsetsを作成して適用してください
+
+## 動作イメージ
+
+![](https://i.imgur.com/wRl0V4L.png)
