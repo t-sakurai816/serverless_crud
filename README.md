@@ -43,7 +43,7 @@ $ npm install --save serverless-s3-sync
 $ sls deploy -v --aws-profile awsProfileName
 ```
 
-表示されたURLを`js/index.js`に入力して再度デプロイするとブラウザからCRUDできるようになります。
+表示されたURLを`js/index.js`に入力して再度デプロイするとS3バケットにある`index.html`を利用してブラウザからCRUDできるようになります。
 
 ## APIのIP制限
 
